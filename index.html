@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript"></script>
+	<title></title>
+</head>
+<body>
+	 <script type="text/javascript">
+	 	var int1;
+	 	var int2;
+	 	int1 = window.prompt("please enter the first number");
+	 	int2 = window.prompt("please enter the second number");
+	 	var int11 = parseInt(int1);
+	 	var int21 = parseInt(int2);
+	</script>
+	
+	<input type="button" value="number1" onclick="alert(int11)">
+	<input type="button" value="number2" onclick="alert(int21)">
+	
+	<script type="text/javascript">
+	if (int11>int21) {
+		document.body.style.backgroundColor = 'lightblue';
+		document.writeln("<p>");
+		document.writeln(int11 +">"+int21);
+	}else if(int11==int21)	{
+		document.body.style.backgroundColor = 'lightgreen';
+		document.writeln("<p>");
+		document.writeln(int11 +"=="+int21);
+	}else{
+		document.body.style.backgroundColor = 'lightyellow';
+		document.writeln("<p>");
+		document.writeln(int21 +">"+int11);
+	}
+	</script>
+	
+
+</body>
+</html>
